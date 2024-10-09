@@ -1,0 +1,11 @@
+{
+  "config": {
+    "comitizen": {
+      "path": "node_modules/cz-git",
+      "useEmojit": true
+    }
+  },
+  "devDependencies": {
+    "cz-git": "^1.10.1"
+  }
+}
