@@ -2,5 +2,9 @@ export default {
     SUCCESS: `The operation has been successful`,
     SOMETHING_WENT_WRONG: `Something went wrong!`,
     NOT_FOUND: (entity: string) => `${entity} not found`,
-    TOO_MANY_REQUESTS: `Too many requests! Please try again after some time`
+    TOO_MANY_REQUESTS: `Too many requests! Please try again after some time`,
+    INVAILD_PHONE_NUMBER: `Invaild phone number`,
+    ALREADY_EXIST: (entity: string, indentifier: string) => {
+        return `${entity} is already exist ${indentifier}`
+    }
 }
